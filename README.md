@@ -10,8 +10,7 @@
 2.当屏幕比例跟 ui 稿不一致时，不会出现两边留白情况
 缺点：每个图表都需要单独做字体、间距、位移的适配，比较麻烦
 
-![Uploading 0aa7824713332c806ac4ce63b742bc3.png…]()
-
+![0aa7824713332c806ac4ce63b742bc3](https://github.com/user-attachments/assets/ad956dc9-097e-488e-9d13-60bf4f5f37b1)
 
 
 ##  2、主要文件介绍

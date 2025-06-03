@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big-Screen-Vue3</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+
+<!-- 
+token：用于用户正常验证。 前端请求数据
+refresh_token：更新(生成新)token时，需要验证refresh_token是否过期或被篡改。 -->
+<!-- 
+
+
+解决了大屏适配(在2k、4k屏幕下)的问题并封装成了组件在团队各个项目中使用，提升了项目研发效率 
+优化了大屏数据更新的方案，根据业务情况采用了SSE的数据推送的方式 
+解决大屏长时间投屏导致token失效的问题， 解决refresh_token多次刷新的问题 
+大屏项目 内存异常排查 采用GPU加速优化性能问题 -->

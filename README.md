@@ -28,20 +28,6 @@
 | api/api.js        | 接口封装文件                                                 |
 | mock              | 模拟数据接口地址                                             |
 
-###  
-
-## 使用介绍
-
-### 安装
-
-```npm
-npm install   
-```
-### 启动
-
-```npm
-npm run dev
-```
 
 ### 取消mock模拟数据
 
@@ -51,14 +37,6 @@ npm run dev
 import { mockXHR } from "@/mock/index";
 mockXHR()
 ```
-
-## 
-
-## 公用组件
-
-封装了除面条外个别用到的组件
-
-### 自适应缩放组件
 
 #### 注意
 采用Scale方式，会自动给组件父元素添加overflow:hidden 
